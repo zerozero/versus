@@ -1,0 +1,17 @@
+<ion-view title="New">
+    <ion-content padding="true">
+
+        <ion-list>
+            <ion-item>
+                <input type="text" ng-model="newGame.name" ng-required="true" />
+            </ion-item>
+            <ion-item>
+                <input type="text" ng-model="newGame.player1" />
+            </ion-item>
+            <ion-item>
+                <input type="text" ng-model="newGame.player2" />
+            </ion-item>
+        </ion-list>
+        <a class="button button-assertive button-full" ng-click="createGame()">OK</a>
+    </ion-content>
+</ion-view>
